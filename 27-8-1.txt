@@ -1,0 +1,24 @@
+//Q1
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char s1[],s2[];
+int i,cont=0;
+clrscr();
+printf("enter string");
+scanf("%s",s1);
+printf("enter string");
+scanf("%s",s2);
+for(i=0;s1[i]!='\0';i++)
+{
+if(s1[i]==s2[i])
+count++;
+}
+if(count==0)
+printf("ANAGRAM\n");
+else
+printf("NOT ANAGRAM");
+}
